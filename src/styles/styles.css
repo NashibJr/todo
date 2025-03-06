@@ -71,6 +71,7 @@ form button:hover {
   padding: 10px;
   height: 25px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .todo-item p,
 .todo-item button {
