@@ -45,7 +45,8 @@ form input {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-form button {
+form button,
+.footer button {
   border: none;
   font-weight: bolder;
   color: #fff;
@@ -74,7 +75,8 @@ form button:hover {
   cursor: pointer;
 }
 .todo-item p,
-.todo-item button {
+.todo-item button,
+.footer p {
   margin: auto 0 auto 0;
   font-weight: 600;
   opacity: 0.9;
@@ -91,4 +93,14 @@ form button:hover {
 }
 .todo-item button:hover {
   opacity: 0.8;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: minmax(50px, 1fr) 100px;
+  margin: 20px 0 30px 0;
+}
+.footer button {
+  height: 40px;
+  margin: auto 0 auto 0;
 }
